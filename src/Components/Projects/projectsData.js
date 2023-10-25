@@ -17,7 +17,8 @@ export const projects = [
   {
     name: 'Memory Game',
     preview: memoryGamePrev,
-    description: 'A fun game designed to test your memory.',
+    description:
+      'A fun game designed to test your memory. includes difficulty levels, a user-friendly layout and smooth animations',
     github: 'https://github.com/Khaled0P/Memory-game',
     live: 'https://memory-game-five-mu.vercel.app',
   },
@@ -33,7 +34,7 @@ export const projects = [
     name: 'Battleship',
     preview: battleshipPrev,
     description:
-      'Made with minimalistic deseign styles. and following a Test-Driven Development (TDD) approach. this web application allows users to strategically place their fleet of ships and engage in epic naval battles against an AI opponent.',
+      'Made with minimalistic deseign styles. focusing on the code and logic behind each interaction. and following a Test-Driven Development (TDD) approach. this web application allows users to strategically place their fleet of ships and engage in epic naval battles against an AI opponent.',
     github: 'https://github.com/Khaled0P/Battleship.git',
     live: 'https://khaled0p.github.io/Battleship/',
   },

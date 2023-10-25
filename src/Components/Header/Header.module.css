@@ -57,9 +57,11 @@
     width: 80%;
 }
 
-.about p {
-    color: #999;
-    line-height: 1.2;
+.about {
+    composes: paragraphMain from '../../index.css';
+    color: #b4b4b4;
+    font-size: 1.2rem;
+    line-height: 1.5;
 }
 
 .arrows {
