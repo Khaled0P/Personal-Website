@@ -1,0 +1,42 @@
+.skillsSection {
+    padding: 2rem;
+    margin-bottom: 5rem;
+}
+
+.skillsHeader {
+    composes: sectionHeader from '../../index.css';
+    margin-bottom: 2rem;
+}
+
+.skillsContainer {
+    width: 60%;
+    margin: auto;
+    padding: 2rem;
+    background-color: rgba(46, 46, 46, .6);
+    color: white;
+    border-radius: 12px;
+    box-shadow: 2px 2px 10px rgba(64, 64, 64, 0.5);
+
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px 40px;
+}
+
+.skillCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    transition: transform .3s;
+}
+
+.skillCard:hover {
+    transform: scale(110%);
+}
+
+.skillCard>img {
+    height: 38px;
+    width: 38px;
+}
