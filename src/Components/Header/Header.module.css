@@ -1,7 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@600;700&display=swap');
-
 .header {
-    font-family: 'Space Grotesk', sans-serif;
+    composes: paragraphMain from '../../index.css';
     padding: 3rem;
     min-height: 100vh;
     display: grid;
@@ -113,4 +111,29 @@
     animation-delay: 0s;
     -webkit-animation-delay: 0s;
     /* Safari 和 Chrome */
+}
+
+@media (max-width:1205px) {
+    .main h1 {
+        font-size: 3rem;
+        margin-bottom: 1rem;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .header {
+        grid-template-columns: 1fr;
+    }
+
+    .main {
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .main h1 {
+        font-size: 3rem;
+    }
 }

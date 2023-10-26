@@ -27,8 +27,17 @@
 
 .project>img {
     width: 90%;
+    max-width: 800px;
     height: 500px;
     border-radius: 8px;
+}
+
+.project:nth-child(2n) {
+    grid-template-columns: 1fr 2fr;
+}
+
+.project:nth-child(2n) img {
+    order: 2;
 }
 
 .projectBody {
@@ -46,15 +55,6 @@
     margin-bottom: 2rem;
 }
 
-.icons {
-    display: flex;
-    gap: 10px;
-}
-
-.icons a>img {
-    width: 28px;
-    height: 28px;
-}
 
 .description {
     composes: paragraphMain from '../../index.css';
@@ -130,4 +130,32 @@
     border-width: 3px;
     font-size: 24px;
     font-weight: 600;
+}
+
+@media screen and (max-width:980px) {
+    .projectsSection {
+        padding: .5rem;
+    }
+
+    .projectsHeader {
+        margin-left: 1.5rem;
+    }
+
+    .project,
+    .project:nth-child(2n) {
+        grid-template-columns: 1fr;
+    }
+
+    .project:nth-child(2n) img {
+        order: unset;
+    }
+
+    .project>img {
+        width: 100%;
+        height: auto;
+    }
+
+    .links a {
+        text-align: center;
+    }
 }
