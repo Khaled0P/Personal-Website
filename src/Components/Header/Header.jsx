@@ -1,7 +1,4 @@
-import linkedin from '../../assets/linkedin.svg';
-import linkedinColor from '../../assets/linkedinColor.svg';
-import github from '../../assets/github.svg';
-import githubColor from '../../assets/githubColor.svg';
+import Socials from '../Socials/Socials';
 import styles from './Header.module.css';
 
 export default function Header() {
@@ -10,29 +7,7 @@ export default function Header() {
       <div className={styles.main}>
         <h1>Khaled AbdRahem</h1>
         <h2>Front-End Developer</h2>
-        <div className={styles.contacts}>
-          <a href="https://github.com/Khaled0P" target="blank">
-            {' '}
-            <img src={github} alt="Linkedin" className={styles.linkedin} />
-            <img
-              src={githubColor}
-              alt="Linkedin"
-              className={styles.iconColor}
-            />
-          </a>
-          <a
-            href="https://www.linkedin.com/in/khaled-abdelrhem-1653a224a/"
-            target="blank"
-          >
-            {' '}
-            <img src={linkedin} alt="Linkedin" className={styles.linkedin} />
-            <img
-              src={linkedinColor}
-              alt="Linkedin"
-              className={styles.iconColor}
-            />
-          </a>
-        </div>
+        <Socials />
       </div>
       <div className={styles.about}>
         <h1 className={styles.aboutHeader}>About</h1>

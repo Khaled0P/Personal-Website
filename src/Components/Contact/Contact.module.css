@@ -1,0 +1,39 @@
+.contact {
+    text-align: center;
+    padding: 2rem;
+}
+
+.contactHeader {
+    composes: sectionHeader from '../../index.css';
+    margin-bottom: 4rem;
+}
+
+.contactHeader::before {
+    content: '';
+    height: 1px;
+    width: 40%;
+    position: absolute;
+    top: 50%;
+    transform: translateX(-106%);
+    background-color: #f8efd4;
+
+}
+
+.text {
+    composes: paragraphMain from '../../index.css';
+    font-size: 1.2rem;
+    color: #999;
+    margin-bottom: 1rem;
+}
+
+span.text {
+    display: inline-block;
+    color: #b8b8b8;
+    margin-bottom: 2rem;
+}
+
+.email {
+    composes: headerMain from '../../index.css';
+    margin-bottom: 2rem;
+    font-size: 3rem;
+}
