@@ -16,8 +16,9 @@
 
 
 .project {
+    max-width: 1350px;
     color: white;
-    margin-bottom: 6rem;
+    margin: 3rem auto 6rem;
     display: grid;
     grid-template-columns: 2fr 1fr;
     justify-content: center;
