@@ -4,6 +4,8 @@ import framerIcon from '../../assets/framermotion.svg';
 import gitIcon from '../../assets/git.svg';
 import githubIcon from '../../assets/github.svg';
 import javascriptIcon from '../../assets/javascript.svg';
+import typescriptIcon from '../../assets/typescript.svg';
+import bootstrapIcon from '../../assets/bootstrap.svg';
 import jestIcon from '../../assets/jest.svg';
 import reactIcon from '../../assets/react.svg';
 import sassIcon from '../../assets/sass.svg';
@@ -13,9 +15,11 @@ import webpackIcon from '../../assets/webpack.svg';
 export const skillsData = [
   { name: 'HTML', icon: htmlIcon },
   { name: 'CSS', icon: cssIcon },
-  { name: 'SASS', icon: sassIcon },
   { name: 'JavaScript', icon: javascriptIcon },
+  { name: 'TypeScript', icon: typescriptIcon },
   { name: 'React', icon: reactIcon },
+  { name: 'SASS', icon: sassIcon },
+  { name: 'BootStrap', icon: bootstrapIcon },
   { name: 'Framer Motion', icon: framerIcon },
   { name: 'Git', icon: gitIcon },
   { name: 'GitHub', icon: githubIcon },
