@@ -6,6 +6,7 @@ import githubIcon from '../../assets/github.svg';
 import javascriptIcon from '../../assets/javascript.svg';
 import typescriptIcon from '../../assets/typescript.svg';
 import bootstrapIcon from '../../assets/bootstrap.svg';
+import reduxIcon from '../../assets/redux.svg';
 import jestIcon from '../../assets/jest.svg';
 import reactIcon from '../../assets/react.svg';
 import sassIcon from '../../assets/sass.svg';
@@ -18,6 +19,7 @@ export const skillsData = [
   { name: 'JavaScript', icon: javascriptIcon },
   { name: 'TypeScript', icon: typescriptIcon },
   { name: 'React', icon: reactIcon },
+  { name: 'Redux', icon: reduxIcon },
   { name: 'SASS', icon: sassIcon },
   { name: 'BootStrap', icon: bootstrapIcon },
   { name: 'Framer Motion', icon: framerIcon },
