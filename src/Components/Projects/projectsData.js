@@ -1,11 +1,19 @@
+import bmwPrev from '../../assets/Projects-screenshots/BMW.png';
 import gameStationPrev from '../../assets/Projects-screenshots/game-station.png';
 import memoryGamePrev from '../../assets/Projects-screenshots/memory-game.jpg';
 import resumeBuilderPrev from '../../assets/Projects-screenshots/resume-builder.png';
 import battleshipPrev from '../../assets/Projects-screenshots/battleship.jpg';
 import todoListPrev from '../../assets/Projects-screenshots/todo-list.jpg';
-import weatherAppPrev from '../../assets/Projects-screenshots/weather-app.jpg';
 
 export const projects = [
+  {
+    name: 'BMWelektronika',
+    preview: bmwPrev,
+    description: `Spearheaded the development of the official website for BMWelektronika private business. Collaborated closely with a designer to translate creative concepts into pixel-perfect, high-performance 
+ code. Designed and implemented a loading screen using After Effects, seamlessly integrating fully animated elements into the website`,
+    github: 'https://github.com/adoringdo/BMWelektronika.git',
+    live: 'https:/bmwelektronika.tech',
+  },
   {
     name: 'Game Station',
     preview: gameStationPrev,
@@ -45,13 +53,5 @@ export const projects = [
       'This web application is designed to streamline your task management and boost your productivity. With the ability to add, delete, and organize tasks, create custom projects, and prioritize your to-dos.',
     github: 'https://github.com/Khaled0P/To-Do-List.git',
     live: 'https://khaled0p.github.io/To-Do-List/',
-  },
-  {
-    name: 'Weather App',
-    preview: weatherAppPrev,
-    description:
-      'This versatile and user-friendly web tool enables you to access accurate weather information for various locations worldwide.',
-    github: 'https://github.com/Khaled0P/Weather-App.git',
-    live: 'https://khaled0p.github.io/Weather-App/',
   },
 ];
