@@ -12,6 +12,7 @@ import reactIcon from '../../assets/react.svg';
 import sassIcon from '../../assets/sass.svg';
 import styledcomponentsIcon from '../../assets/styledcomponents.svg';
 import webpackIcon from '../../assets/webpack.svg';
+import nextIcon from '../../assets/next.svg';
 
 export const skillsData = [
   { name: 'HTML', icon: htmlIcon },
@@ -19,6 +20,7 @@ export const skillsData = [
   { name: 'JavaScript', icon: javascriptIcon },
   { name: 'TypeScript', icon: typescriptIcon },
   { name: 'React', icon: reactIcon },
+  { name: 'Next', icon: nextIcon },
   { name: 'Redux', icon: reduxIcon },
   { name: 'SASS', icon: sassIcon },
   { name: 'BootStrap', icon: bootstrapIcon },
