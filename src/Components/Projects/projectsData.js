@@ -1,8 +1,8 @@
 import bmwPrev from '../../assets/Projects-screenshots/BMW.png';
 import gameStationPrev from '../../assets/Projects-screenshots/game-station.png';
-import memoryGamePrev from '../../assets/Projects-screenshots/memory-game.jpg';
+import carsShowCasePrev from '../../assets/Projects-screenshots/cars-showcase.png';
 import resumeBuilderPrev from '../../assets/Projects-screenshots/resume-builder.png';
-import battleshipPrev from '../../assets/Projects-screenshots/battleship.jpg';
+import chatAppPrev from '../../assets/Projects-screenshots/chat-app.png';
 import todoListPrev from '../../assets/Projects-screenshots/todo-list.jpg';
 
 export const projects = [
@@ -15,20 +15,28 @@ export const projects = [
     live: 'https:/bmwelektronika.tech',
   },
   {
-    name: 'Game Station',
-    preview: gameStationPrev,
+    name: 'E-Commerce Website',
+    preview:gameStationPrev,
     description:
       'A front-end implementation of an E-commerce website leveraging the up-to-date database of RAWG API.',
     github: 'https://github.com/Khaled0P/Game-Station',
     live: 'https://khaled-game-station.netlify.app/',
   },
   {
-    name: 'Memory Game',
-    preview: memoryGamePrev,
+    name: 'Cars Showcase',
+    preview: carsShowCasePrev,
     description:
-      'A fun game designed to test your memory. includes difficulty levels, a user-friendly layout and smooth animations',
-    github: 'https://github.com/Khaled0P/Memory-game',
-    live: 'https://memory-game-five-mu.vercel.app',
+      'A website to explore cars built with advanced filtering, pagination and NextJS routing',
+    github: 'https://github.com/Khaled0P/Cars-Ecommerce.git',
+    live: 'https://cars-ecommerce.vercel.app/',
+  },
+  {
+    name: 'Chat App',
+    preview: chatAppPrev,
+    description:
+      'Built a chat application which allows users to signup, chat with friends, create group chats and supports media attachments.',
+    github: 'https://github.com/Khaled0P/chat-app.git',
+    live: 'https://chat-app-khaled0p.vercel.app/chats',
   },
   {
     name: 'Resume Builder',
@@ -37,14 +45,6 @@ export const projects = [
       'This web application empowers users to effortlessly create professional and polished resumes tailored to you career aspirations..',
     github: 'https://github.com/Khaled0P/Resume-Builder.git',
     live: 'https://khaled-cv-application.netlify.app/',
-  },
-  {
-    name: 'Battleship',
-    preview: battleshipPrev,
-    description:
-      'Made with minimalistic deseign styles. focusing on the code and logic behind each interaction. and following a Test-Driven Development (TDD) approach. this web application allows users to strategically place their fleet of ships and engage in epic naval battles against an AI opponent.',
-    github: 'https://github.com/Khaled0P/Battleship.git',
-    live: 'https://khaled0p.github.io/Battleship/',
   },
   {
     name: 'To-Do List',
