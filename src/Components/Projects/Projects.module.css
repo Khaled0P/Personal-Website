@@ -130,13 +130,13 @@
   z-index: -1;
   width: calc(100% + 20px);
   height: calc(100% + 20px);
-  background-color: #ff4545;
+  background-color: #ec0c0c;
   transition: 0.4s;
   opacity: 1;
 }
 
 .github.privateGithub:hover {
-  background-color: #ff4545;
+  background-color: #ec0c0c;
   color: #f8efd4;
   letter-spacing: 4px;
   cursor: not-allowed;
