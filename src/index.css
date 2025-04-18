@@ -2,7 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Display:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300&display=swap');
 
-
 * {
   padding: 0;
   margin: 0;
@@ -13,6 +12,8 @@ body {
   background-color: black;
   color: white;
   font-family: 'Inter', 'Karla', sans-serif;
+  max-width: 1600px;
+  margin: auto;
 }
 
 .sectionHeader {
@@ -39,4 +40,6 @@ body {
 
 .paragraphMain {
   font-family: Dosis, sans-serif;
+  font-size: 1.1rem;
+  line-height: 1.5rem;
 }

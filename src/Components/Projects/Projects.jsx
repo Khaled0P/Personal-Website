@@ -9,6 +9,12 @@ function ProjectBody({ project }) {
       <div className={styles.projectBody}>
         <h1 className={styles.projectName}>{project.name}</h1>
         <p className={styles.description}>{project.description}</p>
+        {project.tech && (
+          <p className={styles.description}>
+            {' '}
+            <b>Technologies</b>: {project.tech}
+          </p>
+        )}
         <div className={styles.links}>
           <a href={project.github} target="blank">
             <button className={styles.github}>Review Code</button>

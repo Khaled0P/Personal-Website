@@ -1,162 +1,158 @@
 @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Display:wght@300&display=swap');
 
 .projectsSection {
-    padding: 2rem;
-    margin-bottom: 1rem;
+  padding: 2rem;
+  margin-bottom: 1rem;
 }
 
 .projectsHeader {
-    composes: sectionHeader from '../../index.css';
-    margin-bottom: 3rem;
+  composes: sectionHeader from '../../index.css';
+  margin-bottom: 3rem;
 }
 
 .projects {
-    padding: 1rem;
+  padding: 1rem;
 }
-
 
 .project {
-    max-width: 1350px;
-    color: white;
-    margin: 3rem auto 6rem;
-    display: grid;
-    grid-template-columns: 2fr 1fr;
-    justify-content: center;
-    justify-items: center;
-    align-items: center;
+  max-width: 1350px;
+  color: white;
+  margin: 3rem auto 6rem;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
 }
 
-.project>img {
-    width: 90%;
-    max-width: 800px;
-    height: 500px;
-    border-radius: 8px;
+.project > img {
+  width: 90%;
+  max-width: 800px;
+  height: 500px;
+  border-radius: 8px;
 }
 
 .project:nth-child(2n) {
-    grid-template-columns: 1fr 2fr;
+  grid-template-columns: 1fr 2fr;
 }
 
 .project:nth-child(2n) img {
-    order: 2;
+  order: 2;
 }
 
 .projectBody {
-    padding: 15px;
+  padding: 15px;
 }
 
-.projectBody>div {
-    margin: 3rem 0;
+.projectBody > div {
+  margin: 3rem 0;
 }
 
 .projectName {
-    composes: headerMain from '../../index.css';
-    font-size: 2rem;
-    text-align: center;
-    margin-bottom: 2rem;
+  composes: headerMain from '../../index.css';
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 2rem;
 }
 
-
 .description {
-    composes: paragraphMain from '../../index.css';
-    color: #cccccc;
+  composes: paragraphMain from '../../index.css';
+  color: #cccccc;
+  margin-bottom: 10px;
 }
 
 .links {
-    display: flex;
-    gap: 20px;
+  display: flex;
+  gap: 20px;
 }
 
 .links a {
-    text-decoration: none;
-    color: inherit;
-    display: inline-block;
-    width: 100%;
+  text-decoration: none;
+  color: inherit;
+  display: inline-block;
+  width: 100%;
 }
 
 .links button {
-    max-width: 200px
+  max-width: 200px;
 }
 
 .button {
-    padding: 12px 22px;
-    border: 0;
-    width: 100%;
-    border-radius: 4px;
-    border: 1px solid #f8efd4;
-    background-color: #1b1b1b;
-    color: #f8efd4;
-    font-size: 22px;
-    font-family: Big Shoulders Stencil Display, cursive;
-    text-transform: uppercase;
-    transition: all .4s;
-    cursor: pointer;
-    position: relative;
-    z-index: 10;
-    overflow: hidden;
+  padding: 12px 22px;
+  border: 0;
+  width: 100%;
+  border-radius: 4px;
+  border: 1px solid #f8efd4;
+  background-color: #1b1b1b;
+  color: #f8efd4;
+  font-size: 22px;
+  font-family: Big Shoulders Stencil Display, cursive;
+  text-transform: uppercase;
+  transition: all 0.4s;
+  cursor: pointer;
+  position: relative;
+  z-index: 10;
+  overflow: hidden;
 }
 
 .button::before {
-    content: "";
-    position: absolute;
-    bottom: -150%;
-    left: -10px;
-    z-index: -1;
-    width: calc(100% + 20px);
-    height: calc(100% + 20px);
-    background-color: #f8efd4;
-    transition: .4s;
-    opacity: 1;
+  content: '';
+  position: absolute;
+  bottom: -150%;
+  left: -10px;
+  z-index: -1;
+  width: calc(100% + 20px);
+  height: calc(100% + 20px);
+  background-color: #f8efd4;
+  transition: 0.4s;
+  opacity: 1;
 }
 
 .button:hover {
-    background-color: #f8efd4;
-    color: #1b1b1b;
-    letter-spacing: 4px;
+  background-color: #f8efd4;
+  color: #1b1b1b;
+  letter-spacing: 4px;
 }
 
 .button:hover::before {
-    transform: translateY(calc(-100% + 3px));
-
+  transform: translateY(calc(-100% + 3px));
 }
 
-
-
 .github {
-    composes: button;
+  composes: button;
 }
 
 .live {
-    composes: button;
-    border-width: 3px;
-    font-size: 24px;
-    font-weight: 600;
+  composes: button;
+  border-width: 3px;
+  font-size: 24px;
+  font-weight: 600;
 }
 
-@media screen and (max-width:980px) {
-    .projectsSection {
-        padding: .5rem;
-    }
+@media screen and (max-width: 980px) {
+  .projectsSection {
+    padding: 0.5rem;
+  }
 
-    .projectsHeader {
-        margin-left: 1.5rem;
-    }
+  .projectsHeader {
+    margin-left: 1.5rem;
+  }
 
-    .project,
-    .project:nth-child(2n) {
-        grid-template-columns: 1fr;
-    }
+  .project,
+  .project:nth-child(2n) {
+    grid-template-columns: 1fr;
+  }
 
-    .project:nth-child(2n) img {
-        order: unset;
-    }
+  .project:nth-child(2n) img {
+    order: unset;
+  }
 
-    .project>img {
-        width: 100%;
-        height: auto;
-    }
+  .project > img {
+    width: 100%;
+    height: auto;
+  }
 
-    .links a {
-        text-align: center;
-    }
+  .links a {
+    text-align: center;
+  }
 }
