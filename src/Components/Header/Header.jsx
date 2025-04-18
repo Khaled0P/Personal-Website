@@ -12,12 +12,12 @@ export default function Header() {
       <div className={styles.about}>
         <h1 className={styles.aboutHeader}>About</h1>
         <p>
-          &nbsp; &nbsp; &nbsp; &nbsp; Enthusiasm for all things tech, both
-          hardware and software, has been a driving force since an early age.
-          With a major in Information Technology and a solid foundation in
-          computer science, I&apos;ve taken the path of a front-end developer as
-          my profession. with a focus on creating responsive layouts, and a firm
-          belief in the life-long learning journey.
+          &nbsp; &nbsp; &nbsp; &nbsp; With several years of professional experience in web development, My
+          work spans fully custom Shopify themes, advanced Liquid logic, and
+          modern React/Next.js applications, with a strong emphasis on
+          performance and user experience. I’m always exploring new tools and
+          workflows, driven by a firm belief in lifelong learning and continuous
+          improvement.
         </p>
       </div>
       <svg className={styles.arrows}>

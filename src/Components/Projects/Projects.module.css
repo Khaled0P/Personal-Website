@@ -122,6 +122,30 @@
   composes: button;
 }
 
+.github.privateGithub::before {
+  content: '';
+  position: absolute;
+  bottom: -150%;
+  left: -10px;
+  z-index: -1;
+  width: calc(100% + 20px);
+  height: calc(100% + 20px);
+  background-color: #ff4545;
+  transition: 0.4s;
+  opacity: 1;
+}
+
+.github.privateGithub:hover {
+  background-color: #ff4545;
+  color: #f8efd4;
+  letter-spacing: 4px;
+  cursor: not-allowed;
+}
+
+.github.privateGithub:hover::before {
+  transform: translateY(calc(-100% + 3px));
+}
+
 .live {
   composes: button;
   border-width: 3px;
