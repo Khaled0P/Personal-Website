@@ -1,5 +1,3 @@
-import htmlIcon from '../../assets/html.svg';
-import cssIcon from '../../assets/css.svg';
 import framerIcon from '../../assets/framermotion.svg';
 import gitIcon from '../../assets/git.svg';
 import githubIcon from '../../assets/github.svg';
@@ -13,15 +11,19 @@ import sassIcon from '../../assets/sass.svg';
 import styledcomponentsIcon from '../../assets/styledcomponents.svg';
 import webpackIcon from '../../assets/webpack.svg';
 import nextIcon from '../../assets/next.svg';
+import shopifyIcon from '../../assets/shopify.png';
+import tailwindIcon from '../../assets/tailwind.svg';
+import materialuiIcon from '../../assets/materialui.svg';
 
 export const skillsData = [
-  { name: 'HTML', icon: htmlIcon },
-  { name: 'CSS', icon: cssIcon },
-  { name: 'JavaScript', icon: javascriptIcon },
-  { name: 'TypeScript', icon: typescriptIcon },
+  { name: 'Shopify', icon: shopifyIcon },
   { name: 'React', icon: reactIcon },
   { name: 'Next', icon: nextIcon },
   { name: 'Redux', icon: reduxIcon },
+  { name: 'JavaScript', icon: javascriptIcon },
+  { name: 'TypeScript', icon: typescriptIcon },
+  { name: 'Tailwind CSS', icon: tailwindIcon },
+  { name: 'Material UI', icon: materialuiIcon },
   { name: 'SASS', icon: sassIcon },
   { name: 'BootStrap', icon: bootstrapIcon },
   { name: 'Framer Motion', icon: framerIcon },
