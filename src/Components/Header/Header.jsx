@@ -6,7 +6,7 @@ export default function Header() {
     <header className={styles.header}>
       <div className={styles.main}>
         <h1>Khaled AbdRahem</h1>
-        <h2>Front-End Developer</h2>
+        <h2>Front-End Developer <span style={{textTransform: 'capitalize', color: '#f8efd4'}}>(Shopify / ReactJS)</span></h2>
         <Socials />
       </div>
       <div className={styles.about}>
