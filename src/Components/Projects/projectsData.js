@@ -49,7 +49,7 @@ export const projects = [
     code. Designed and implemented a loading screen, seamlessly integrating fully animated elements into the website`,
     tech:'ReactJS, BootStrap, Framer motion, CSS Modules, React scroll',
     github: 'https://github.com/adoringdo/BMWelektronika.git',
-    live: 'https:/bmwelektronika.tech',
+    live: 'https://bmwelektronika.tech',
   },
   {
     name: 'E-Commerce Website',
